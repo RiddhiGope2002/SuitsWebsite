@@ -1,0 +1,85 @@
+/* reset
+tags
+class
+ids
+media */
+#navbarNavDropdown {
+    flex-direction: row-reverse;
+}
+
+.pic2{
+    display: inline-block;
+    width: 700px;
+    padding:3rem;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+#About{
+    padding: 5rem;
+}
+
+#Community{
+    margin: 0 5rem 5rem 5rem;
+}
+
+#Partners{
+    margin: 0 5rem 5rem 5rem;
+}
+
+.pic3,.pic4,.pic5,.pic6,.pic7{
+    display: inline-block;
+    width: 400px;
+   padding: 0 0 4rem 0;
+}
+
+.farm-partners{
+    margin: 0 5rem 5rem 5rem;
+}
+
+footer{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.social-icons{
+    padding: 0.5rem;
+}
+
+.flexbox,#Community div,#Partners h1{
+    margin: 0 5rem 0 5rem;
+}
+
+
+
+#Contact{
+    margin: 0 5rem 0 5rem;
+} 
+
+i{
+    color:black;
+}
+
+@media only screen and (max-width: 1000px){
+    .flexbox{
+        flex-direction: column;
+    }
+    .farm-partners {
+        margin: 0;
+    }
+}
+
+@media(max-width:500px) {
+    #About, #Community, #Partners {
+        padding: 0;
+        margin: 0;
+    }
+    .pic2 {
+        padding: 0;
+        width: 300px;
+    }
+}
